@@ -12,5 +12,5 @@ def load_data(data_dir):
                       if f.endswith(".jpg")]
         for f in file_names:
             images.append(data.imread(f))
-            image_idid.append(file_names)
+            image_id.append(file_names)
     return images, image_id
